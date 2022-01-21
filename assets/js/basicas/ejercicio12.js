@@ -11,6 +11,7 @@
  const cambiarNombre = () => {
    let name = prompt("Ingrese su nombre");
    nombreUsuario.innerHTML +="Bienvenido/a "+name;
+   console.log(name);
  };
  
  //Eventos
